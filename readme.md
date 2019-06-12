@@ -1,4 +1,6 @@
-#Cache Breaking Tasks [![Build Status](https://travis-ci.org/shakyShane/cache-breaker.svg?branch=master)](https://travis-ci.org/shakyShane/cache-breaker)
+#Cache Breaking Tasks
+
+This is a fork of [Shaky Shane's cache-breaker](https://github.com/shakyShane/cache-breaker) to fix dependency issues.
 
 **Note: This modules does nothing with the file system, that means you'll have to read/write files yourself, or wait for
 the Grunt & Gulp Plugins**
@@ -7,7 +9,7 @@ the Grunt & Gulp Plugins**
 ##Install
 
 ```
-npm install cache-breaker
+npm install AkuraDavis/cache-breaker
 ```
 
 ##Use in project
@@ -59,7 +61,7 @@ cacheBreaker.breakCache(string, 'style.*.css', {position: 'overwrite'});
 
 ##TODO
 
-- [x] [Grunt Plugin](https://github.com/shakyShane/grunt-cache-breaker)
+- [x] [Grunt Plugin](https://github.com/AkuraDavis/grunt-cache-breaker)
 - [ ] Gulp Plugin
 - [x] Accept file src for creating MD5 hash
 - [x] Allow user-specified string in place of timestamp
